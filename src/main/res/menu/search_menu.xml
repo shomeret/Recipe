@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/search_bar"
+        android:title="Search for recipes"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/showsaved"
+        android:title="Show saved results" />
+    <item android:id="@+id/addnew"
+        android:title="Add new recipe to DB" />
+    <item android:id="@+id/deleteall"
+        android:title="Delete all from DB" />
+</menu>
